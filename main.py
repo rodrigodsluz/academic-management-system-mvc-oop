@@ -8,7 +8,7 @@ import disciplina as disc
 import historico as hist
 
 
-# Limite principal que mostra o menu com as opções
+# Limite principal que mostra o menu com as opções 
 class MainView():
     # Método construtor com a raíz e o controle
     def __init__(self, root, control):

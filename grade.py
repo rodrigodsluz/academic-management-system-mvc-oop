@@ -29,7 +29,7 @@ class informationAlreadyExists(Exception):
     pass
 
 
-# Caso tenha algum campo de preenchimento em branco
+# Caso tenha algum campo de preenchimento em branco 
 class EmptyField(Exception):
     pass
 

@@ -250,7 +250,7 @@ class CtrlAluno():
                 objAluno = aluno
         return objAluno
 
-    # Método para limpar os campos de preenchimento que foram preenchidos
+    # Método para limpar os campos de preenchimento que foram preenchidos 
     def clearHandler(self, event):
         self.limiteIns.inputNroMatric.delete(
             0, len(self.limiteIns.inputNroMatric.get()))
